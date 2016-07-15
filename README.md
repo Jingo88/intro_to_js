@@ -7,7 +7,6 @@
 * Iterate through JS data structures
 * Store JS data types in Objects
 * Use Control Flow in JS
-* Use JS Process.Argv
 
 ---
 ### Lesson
@@ -230,7 +229,6 @@ for (var i = 0; i < animals.length-1; i++){
 ***Function Syntax***
 
 * Functions are reusable blocks of code. 
-* 
 * There are three ways to declare functions in JavaScript. 
 
 ```
@@ -249,3 +247,27 @@ var helloWorld = function(){
 * For this course we will be sticking with the last example of function declaration. This is because we want to be safe from `hoisting` bugs. You can google this on your free time if you'd like
 * Remember all your JS syntax will end with a semi colon
 * Function code blocks are put in between curly brackets `{}`
+* Functions can also take in values which allows them to be more dynamic
+* Take the below example:
+
+```
+var add = function(x,y){
+	console.log(x + y)
+}
+
+add(5,2) === 7
+
+add(9,12) === 21
+
+add(4,8) === 12
+```
+* The `x,y` inside of the function parenthesis are called `parameters`
+* `Parameters` are like nicknames we give for the values we expect somebody to enter when they `invoke` or `call` our function
+* The last three `add` calls are our way of saying `now run the code in that function`. This is `invoking`
+* The numbers that are entered with invoking that function are called `arguments` 
+
+
+
+
+
+
