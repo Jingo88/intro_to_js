@@ -9,38 +9,48 @@
 * Use Control Flow in JS
 
 ---
+
+### What You Need For This Workshop
+
+* Just your brain and something to take notes on. 
+* You will have access to this lesson plan after you leave. 
+
+---
+
 ### Lesson
 
-##### Part 1 - A brief history. Why is this important?
+##### Part 1 - A brief history. Why is JavaScript so important?
 
 ***The Beginning***
 
-* JavaScript was created in 10 days in 1995 by Brendan Eich.
+* ***`DO NOT`*** confuse this with **Java**
+* JavaScript was created in 10 days in 1995 by Brendan Eich who was working at Netscape at the time.
+* It was standardized by ECMA (European Computer Manufacturers Association) in 1996. 
 * JavaScript is the only language that can interact with your browser. Sometimes it gets a bad reputation because the browser is difficult to control.
 * JavaScript is one of the three main languages used for Front End Programming. The other two being HTML and CSS 
 	* `Front End Programming` - How to build the User Interface of a website. 
 		* What are the colors of the website
 		* How is the website laid out
-		* How can the user interact with the website
+		* How does the user interact with the website
 		* What will happen if a user clicks something
 		* How do we render data to the browser
 
-***2000's***
+***2009 And Beyond***
 
 * It was not until recently JavaScript could be used as a backend language
-	* `Back End Programming` - How to build a server and store data
+	* `Back End Programming` - 	How to build a server and store data
 		* Build the different urls a person can visit on your website
 		* Organize a users information for storage
 		* Serve that information to the browser for the user to render
 * This occured with the emergence of `Node.js`. A runtime environment that allows programmers to build server-side applications in JavaScript
 * JavaScript has gained a lot of popularity in recent years as it is convenient to build a full web application, the front and back, in the same language
-* No matter what language you are going to build your server in, whether it's `PHP`, `Ruby`, `Python`, or even `Node.js`, you will still need JavaScript to talk to the browser.
+* No matter what language you are going to build your server in, whether it's `PHP`, `Ruby`, `Python`, or even `Node.js`, you will always need JavaScript to render things in your browser
 
 ---
 
 #### Part 2 - Variables / Assignment / Comparison
 
-* `Variables` is a core concept of programming. We use them to store data for repeated use. 
+* `Variables` are a core concept of programming. We use them to store data for repeated use. 
 * A `variable` is our way of naming a value. You can think of it as a storage container. All we're doing is sticking a label on this storage container. What goes inside this storage container is a value.
 * A `value` can be any form of data. We will `assign` this value to a variable using ONE equal sign. 
 * Below is an example of `declaring` a `variable` and `assigning` a `value` to that variable
@@ -50,7 +60,13 @@ var actor = "Tom Cruise";
 
 var favoriteNumber = 1000;
 ```
-* To declare a variable we begin with the keyword `var` followed by the name of the variable. If that name has two or more words we write it in CamelCase. (favoriteNumber). When we are done declaring our variable we will end our line with a semi colon
+* Declaring a variable
+	* Begin with the keyword `var`
+	* Follow `var` with the name of your variable. Try to keep this as accurate as possible to the value it will be tied to
+	* If the name has two or more words we write it in camelCase(favoriteNumber). 
+	* One equal sign for `assignment`
+	* Followed by the value you are assigning to the variable. 
+	* Complete with a semi-colon. This tells JavaScript you're finished with that line
 * We can also use three equal signs to compare things and see if they are equal or not. Using three equal signs will return to us either `true` or `false`
 * The below example will return to us false
 
