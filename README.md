@@ -92,7 +92,7 @@ var dayTime = false;
 
 ***Numbers***
 
-* Numbers are just that, numbers. 
+* Numbers are just that, numbers 
 * They could be whole numbers or with decimals
 * You can also perform math operations on numbers
 
@@ -119,7 +119,7 @@ var sum = firstNum + secondNum
 var a = "Hello";
 var b = "World";
 ```
-* If a number is wrapped in quotes it is no considered a number but a string
+* If a number is wrapped in quotes it is not considered a number but a string
 
 ```
 var favoriteNumber = "1000"
